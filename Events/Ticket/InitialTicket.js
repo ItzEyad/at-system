@@ -20,7 +20,7 @@ module.exports = {
 
        const ID = Math.floor(Math.random() * 90000) + 10000;
 
-       await guild.channels.create(`${customId + "-" + ID}`, {
+       await guild.channels.create(`${lablel + "|" + ID}`, {
             type: "GUILD_TEXT",
             parent: PARENTID,
             permissionOverwrites: [
