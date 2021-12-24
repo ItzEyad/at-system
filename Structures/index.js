@@ -12,4 +12,4 @@ client.commands = new Collection();
     require(`../Handlers/${handler}`)(client, PG, Ascii);
 });
 
-client.login(Token);
+client.login(process.env.TOKEN);
