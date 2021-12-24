@@ -1,1 +1,1 @@
-Worker: node ../../Schemas/index.js
+Worker: node index.js
